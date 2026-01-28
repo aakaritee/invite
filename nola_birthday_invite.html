@@ -46,8 +46,13 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
+            0%, 100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         h1 {
@@ -111,7 +116,8 @@
             padding: 30px;
             text-align: center;
             font-size: 1.2em;
-            font-style: italic;
+            font-style: normal;
+            font-family: 'Georgia', serif;
         }
 
         .decoration {
@@ -122,25 +128,111 @@
         }
 
         @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
-        .dec1 { top: 8%; left: 8%; }
-        .dec2 { top: 8%; right: 8%; animation-direction: reverse; }
-        .dec3 { top: 8%; left: 50%; transform: translateX(-50%); animation-duration: 15s; }
-        .dec4 { top: 25%; left: 15%; animation-duration: 25s; }
-        .dec5 { top: 25%; right: 15%; animation-duration: 18s; }
-        .dec6 { top: 40%; left: 8%; animation-duration: 22s; animation-direction: reverse; }
-        .dec7 { top: 40%; right: 8%; animation-duration: 20s; }
-        .dec8 { top: 40%; left: 50%; transform: translateX(-50%); animation-duration: 16s; animation-direction: reverse; }
-        .dec9 { top: 55%; left: 15%; animation-duration: 19s; }
-        .dec10 { top: 55%; right: 15%; animation-duration: 23s; animation-direction: reverse; }
-        .dec11 { top: 70%; left: 8%; animation-duration: 17s; }
-        .dec12 { top: 70%; right: 8%; animation-duration: 21s; animation-direction: reverse; }
-        .dec13 { top: 85%; left: 15%; animation-duration: 24s; }
-        .dec14 { top: 85%; right: 15%; animation-duration: 14s; animation-direction: reverse; }
-        .dec15 { top: 85%; left: 50%; transform: translateX(-50%); animation-duration: 26s; }
+        .dec1 {
+            top: 8%;
+            left: 8%;
+        }
+
+        .dec2 {
+            top: 8%;
+            right: 8%;
+            animation-direction: reverse;
+        }
+
+        .dec3 {
+            top: 8%;
+            left: 50%;
+            transform: translateX(-50%);
+            animation-duration: 15s;
+        }
+
+        .dec4 {
+            top: 25%;
+            left: 15%;
+            animation-duration: 25s;
+        }
+
+        .dec5 {
+            top: 25%;
+            right: 15%;
+            animation-duration: 18s;
+        }
+
+        .dec6 {
+            top: 40%;
+            left: 8%;
+            animation-duration: 22s;
+            animation-direction: reverse;
+        }
+
+        .dec7 {
+            top: 40%;
+            right: 8%;
+            animation-duration: 20s;
+        }
+
+        .dec8 {
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            animation-duration: 16s;
+            animation-direction: reverse;
+        }
+
+        .dec9 {
+            top: 55%;
+            left: 15%;
+            animation-duration: 19s;
+        }
+
+        .dec10 {
+            top: 55%;
+            right: 15%;
+            animation-duration: 23s;
+            animation-direction: reverse;
+        }
+
+        .dec11 {
+            top: 70%;
+            left: 8%;
+            animation-duration: 17s;
+        }
+
+        .dec12 {
+            top: 70%;
+            right: 8%;
+            animation-duration: 21s;
+            animation-direction: reverse;
+        }
+
+        .dec13 {
+            top: 85%;
+            left: 15%;
+            animation-duration: 24s;
+        }
+
+        .dec14 {
+            top: 85%;
+            right: 15%;
+            animation-duration: 14s;
+            animation-direction: reverse;
+        }
+
+        .dec15 {
+            top: 85%;
+            left: 50%;
+            transform: translateX(-50%);
+            animation-duration: 26s;
+        }
     </style>
 </head>
 <body>
@@ -152,8 +244,6 @@
             <div class="decoration dec5">🏄</div>
             <div class="decoration dec6">🥥</div>
             <div class="decoration dec7">🍉</div>
-            <div class="decoration dec9">🍓</div>
-            <div class="decoration dec10">🌺</div>
             <div class="decoration dec13">🐚</div>
             <div class="decoration dec14">🥤</div>
             <div class="decoration dec15">🌊</div>
@@ -161,31 +251,26 @@
             <h1>You're Invited!</h1>
             <div class="turning-30">Let's cheer Akriti as she makes a splash into her <span class="age-highlight">30s</span>!</div>
         </div>
-        
+
         <div class="content">
             <div class="detail-row">
                 <div class="icon">🕒</div>
-                <div><span class="label">Time:</span> <span class="time-highlight">3</span> PM</div>
+                <div><span class="label">Time:</span> <span class="time-highlight">3:30</span> PM</div>
             </div>
-            
+
             <div class="detail-row">
                 <div class="icon">📅</div>
                 <div><span class="label">When:</span> Saturday, April 4th</div>
             </div>
-            
+
             <div class="detail-row">
                 <div class="icon">📍</div>
                 <div><span class="label">Where:</span> <span class="venue-name">Sunnies</span><br>4917 Freret Street, New Orleans, LA 70115</div>
             </div>
-            
-            <div class="detail-row">
-                <div class="icon">👕</div>
-                <div><span class="label">Dress Code:</span> Let's think Summer ☀️</div>
-            </div>
         </div>
 
         <div class="nola-vibes">
-            Summer vibes only, See you by the water. 💦☀️🍹
+            Looking Forward to Sharing this Special Celebration With You! 💦🌸🍹☀️
         </div>
     </div>
 </body>
