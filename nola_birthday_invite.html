@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30th Birthday Celebration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .invite-card {
+            background: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 50%, #FF1493 100%);
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sunglasses {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2d3748;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .turning-30 {
+            font-size: 1.3em;
+            color: #2d3748;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+        }
+
+        .age-highlight {
+            font-size: 1.4em;
+        }
+
+        .content {
+            padding: 50px 40px;
+            background: linear-gradient(180deg, #FFF0F5 0%, #FFE4E1 100%);
+        }
+
+        .detail-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            color: #2d3748;
+        }
+
+        .icon {
+            font-size: 1.8em;
+            margin-right: 15px;
+            width: 40px;
+            text-align: center;
+        }
+
+        .label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .venue-name {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .time-highlight {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .nola-vibes {
+            background: linear-gradient(135deg, #FF6B9D 0%, #C06C84 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        .decoration {
+            position: absolute;
+            font-size: 30px;
+            opacity: 0.3;
+            animation: spin 20s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .dec1 { top: 8%; left: 8%; }
+        .dec2 { top: 8%; right: 8%; animation-direction: reverse; }
+        .dec3 { top: 8%; left: 50%; transform: translateX(-50%); animation-duration: 15s; }
+        .dec4 { top: 25%; left: 15%; animation-duration: 25s; }
+        .dec5 { top: 25%; right: 15%; animation-duration: 18s; }
+        .dec6 { top: 40%; left: 8%; animation-duration: 22s; animation-direction: reverse; }
+        .dec7 { top: 40%; right: 8%; animation-duration: 20s; }
+        .dec8 { top: 40%; left: 50%; transform: translateX(-50%); animation-duration: 16s; animation-direction: reverse; }
+        .dec9 { top: 55%; left: 15%; animation-duration: 19s; }
+        .dec10 { top: 55%; right: 15%; animation-duration: 23s; animation-direction: reverse; }
+        .dec11 { top: 70%; left: 8%; animation-duration: 17s; }
+        .dec12 { top: 70%; right: 8%; animation-duration: 21s; animation-direction: reverse; }
+        .dec13 { top: 85%; left: 15%; animation-duration: 24s; }
+        .dec14 { top: 85%; right: 15%; animation-duration: 14s; animation-direction: reverse; }
+        .dec15 { top: 85%; left: 50%; transform: translateX(-50%); animation-duration: 26s; }
+    </style>
+</head>
+<body>
+    <div class="invite-card">
+        <div class="header">
+            <div class="decoration dec1">☀️</div>
+            <div class="decoration dec2">🌴</div>
+            <div class="decoration dec4">🍹</div>
+            <div class="decoration dec5">🏄</div>
+            <div class="decoration dec6">🥥</div>
+            <div class="decoration dec7">🍉</div>
+            <div class="decoration dec9">🍓</div>
+            <div class="decoration dec10">🌺</div>
+            <div class="decoration dec13">🐚</div>
+            <div class="decoration dec14">🥤</div>
+            <div class="decoration dec15">🌊</div>
+            <div class="sunglasses">😎</div>
+            <h1>You're Invited!</h1>
+            <div class="turning-30">Let's cheer Akriti as she makes a splash into her <span class="age-highlight">30s</span>!</div>
+        </div>
+        
+        <div class="content">
+            <div class="detail-row">
+                <div class="icon">🕒</div>
+                <div><span class="label">Time:</span> <span class="time-highlight">3</span> PM</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="icon">📅</div>
+                <div><span class="label">When:</span> Saturday, April 4th</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="icon">📍</div>
+                <div><span class="label">Where:</span> <span class="venue-name">Sunnies</span><br>4917 Freret Street, New Orleans, LA 70115</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="icon">👕</div>
+                <div><span class="label">Dress Code:</span> Let's think Summer ☀️</div>
+            </div>
+        </div>
+
+        <div class="nola-vibes">
+            Summer vibes only, See you by the water. 💦☀️🍹
+        </div>
+    </div>
+</body>
+</html>
